@@ -4,7 +4,6 @@ import streamlit as st  #Streamlit — это фреймворк для язык
 import streamlit as st  #Streamlit — это фреймворк для языка программирования Python
 import pandas as pd   #для вывода таблиц (в виде dataframe)
 import numpy as np
-import matplotlib.pyplot as plt  #для графика
 from streamlit_modal import Modal
 import streamlit.components.v1 as components
 
