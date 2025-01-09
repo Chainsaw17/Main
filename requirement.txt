@@ -1,5 +1,7 @@
-pandas
 streamlit
-numpy 
-matplotlib==3.7.1
-scipy
+matplotlib
+pandas
+numpy
+plotly
+seaborn
+streamlit_modal
