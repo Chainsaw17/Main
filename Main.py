@@ -1,11 +1,5 @@
 #Создание СППР с помощью streamlit
 
-import streamlit as st  #Streamlit — это фреймворк для языка программирования Python
-import streamlit as st  #Streamlit — это фреймворк для языка программирования Python
-import pandas as pd   #для вывода таблиц (в виде dataframe)
-import numpy as np
-from streamlit_modal import Modal
-import streamlit.components.v1 as components
 
 with st.sidebar: #боковая панель с кнопками задач для отображения информации без загромождения основной области контента веб-приложений 
     st.title("Калькулятор калорий")
