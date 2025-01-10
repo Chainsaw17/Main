@@ -129,7 +129,7 @@ if 'd' not in st.session_state:
         'Калорийность, ккал'
         ])
 
-data_df = pd.read_excel("kkal.xlsx") #, delimiter = ';')
+data_df = pd.read_excel("kkal/kkal.xlsx") #, delimiter = ';')
 data_df=data_df.fillna(0)
 data_df['str'] = 'В 100 гр. продукта(кбжу): ' + data_df['Калорийность, ккал'].astype(str) + ', ' + data_df['Белки, г'].astype(str) + ', ' + data_df['Жиры, г'].astype(str) + ', ' + data_df['Углеводы, г'].astype(str)
 #data_df_edit = st.data_editor(data_df)
